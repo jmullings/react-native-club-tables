@@ -1,0 +1,35 @@
+{
+  "name": "reactTables",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.7.0",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-advanced-forms": "^1.0.5",
+    "react-native-console-panel": "^0.1.0",
+    "react-native-draggable": "^1.0.10",
+    "react-native-elements": "^0.18.5",
+    "react-native-fs": "^2.8.5",
+    "react-native-modal-datetime-picker": "^4.13.0",
+    "react-native-orientation": "^3.1.0",
+    "react-native-pinch-zoom-view": "^0.1.3",
+    "react-native-sqlite-storage": "^3.3.4",
+    "react-native-vector-icons": "^4.4.2",
+    "react-preload": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
