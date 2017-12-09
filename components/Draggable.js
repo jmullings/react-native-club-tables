@@ -31,6 +31,7 @@ export default class Draggable extends Component {
         longPressDrag: PropTypes.func,
         pressInDrag: PropTypes.func,
         pressOutDrag: PropTypes.func,
+        isVisible:PropTypes.bool,
         z: PropTypes.number,
         x: PropTypes.number,
         y: PropTypes.number
@@ -49,13 +50,13 @@ export default class Draggable extends Component {
     constructor(props) {
         super(props);
         const {pressDragRelease, reverse, renderSize, x, y} = props;
+
         this.state = {
             pan: new Animated.ValueXY(),
             _value: {x: 0, y: -Window.height / 2},
             size: renderSize
         };
         this.state.pan.setValue(this.state._value)
-
 
         this.panResponder = PanResponder.create({
             onMoveShouldSetPanResponder: (evt, gestureState) => true,
@@ -91,6 +92,17 @@ export default class Draggable extends Component {
                 duration: 3 * 1000,
             }
         ).start();
+    }
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.isVisible===false) {
+            
+            Animated.timing(
+                this.state.pan, {
+                    toValue: {y: -1000, x: -1000},
+                    duration: 3 * 1000,
+                }
+            ).start();
+        }
     }
 
     componentWillUnmount() {
@@ -172,7 +184,6 @@ export default class Draggable extends Component {
 
 
     }
-
     render() {
         const touchableContent = this._getTextOrImage();
         const {pressDrag, longPressDrag, pressInDrag, pressOutDrag} = this.props;
@@ -180,6 +191,7 @@ export default class Draggable extends Component {
         return (
 
             <Animated.View
+                //pointerEvents={this.props.isVisible ? 'auto' : 'none'}
                 {...this.panResponder.panHandlers}
                 style={[this.state.pan.getLayout()]}>
                 <TouchableOpacity

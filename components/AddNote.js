@@ -77,7 +77,7 @@ export default class AddNote extends React.Component {
             top: -200
         };
         firebase.database().ref('/tables').push(data);
-        SQLiteDB.insert(`INSERT INTO 'tables' (dataDump) VALUES (${data.toString()})`);
+        //SQLiteDB.insert(`INSERT INTO 'tables' (dataDump) VALUES (${data.toString()})`);
         //NoteList.forceUpdate()
     }
 

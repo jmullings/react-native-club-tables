@@ -61,7 +61,7 @@ export default class NoteList extends React.Component {
 
     render() {
         var style = {
-            position: 'relative'
+            position: 'absolute'
         };
 
         return (

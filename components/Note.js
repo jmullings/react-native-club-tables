@@ -15,14 +15,17 @@ export default class Note extends React.Component {
     constructor(props) {
         super(props)
             this.state = {
-                isDateTimePickerVisible: false,
-                index: this.props.index,
-                cancelEdit: false,
-                displayName: 'Draggable',
-                deltaPosition: {
-                top: this.props.top,
-                left: this.props.left,
-                zIndex: this.props.zIndex
+                        noteBlank: true,
+                        isDateTimePickerVisible: false,
+                        index: this.props.index,
+                        cancelEdit: false,
+                        displayName: 'Draggable',
+                        deltaPosition: {
+                        top: this.props.top,
+                        left: this.props.left,
+                        zIndex: this.props.zIndex,
+                        renderSize: 30,
+                        isVisible :true
             },
         };
         this.prevZIndex = 0
@@ -63,7 +66,7 @@ export default class Note extends React.Component {
         this.fire.remove().then(function () {
             alert('Removed!!!')
         });
-
+        this.setState({ isVisible: false });
     }
     _showDateTimePicker(){
         this.setState({ isDateTimePickerVisible: true });
@@ -85,12 +88,12 @@ export default class Note extends React.Component {
             borderRadius: '40%',
             width: 220, height: 100
         }
-        var {title, text, left, top} = this.props
-        var position = {x: left, y: top, z: this.props.zIndex, width: 220, height: 100}
+        let {title, text, left, top} = this.props
+        let position = {x: left, y: top, z: this.props.zIndex, width: 220, height: 100}
         return (
             <View >
             <Draggable
-                renderSize={30}
+                renderSize={this.state.render}
                 renderColor='#dae5e8'
                 offsetX={0}
                 offsetY={0}
@@ -98,6 +101,7 @@ export default class Note extends React.Component {
                 z={position.z}
                 x={position.x}
                 y={position.y}
+                isVisible={this.state.isVisible}
                 pressDrag={this.handleDoubleClick.bind(this)}
                 pressDragRelease={this.handleStopDrag.bind(this)}>
 
@@ -108,7 +112,7 @@ export default class Note extends React.Component {
                     onCancel={this._hideDateTimePicker.bind(this)}
                     mode="datetime"
                 />
-                </View>
+            </View>
 
         )
     }
