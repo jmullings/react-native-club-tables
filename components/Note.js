@@ -24,6 +24,11 @@ export default class Note extends React.Component {
                         top: this.props.top,
                         left: this.props.left,
                         zIndex: this.props.zIndex,
+                            deltaPosition: {
+                                x: this.props.left,
+                                y: this.props.top
+                            },
+                            activeDrags:null,
                         renderSize: 30,
                         isVisible :true
             },
@@ -34,6 +39,14 @@ export default class Note extends React.Component {
         this.prevent = false;
     }
 
+    getInitialState() {
+        return {
+            activeDrags: 0,
+            deltaPosition: {
+                x: this.props.left, y: this.props.top
+            }
+        };
+    }
     componentDidMount() {
         this.fire = fire.database()
             .ref(`/tables/${this.props.index}`)
@@ -90,8 +103,10 @@ export default class Note extends React.Component {
         }
         let {title, text, left, top} = this.props
         let position = {x: left, y: top, z: this.props.zIndex, width: 220, height: 100}
+        const {deltaPosition, controlledPosition} = this.state;
         return (
             <View >
+
             <Draggable
                 renderSize={this.state.render}
                 renderColor='#dae5e8'
@@ -102,9 +117,10 @@ export default class Note extends React.Component {
                 x={position.x}
                 y={position.y}
                 isVisible={this.state.isVisible}
+                onPressIn={this.handleDrag.bind(this)}
                 pressDrag={this.handleDoubleClick.bind(this)}
                 pressDragRelease={this.handleStopDrag.bind(this)}>
-
+                <Text>x: {deltaPosition.x}, y: {deltaPosition.y}</Text>
             </Draggable>
                 <DateTimePicker
                     isVisible={this.state.isDateTimePickerVisible}
@@ -124,6 +140,18 @@ export default class Note extends React.Component {
         this.prevent = true;
         this.doDoubleClickAction(this.state.index);
     }
+
+    handleDrag(event) {
+        console.log(event.deltaPosition)
+        // const {x, y} = this.state.deltaPosition;
+        // this.setState({
+        //     deltaPosition: {
+        //         x: x + ui.deltaX,
+        //         y: y + ui.deltaY,
+        //     }
+        // });
+    }
+
     handleStopDrag(position) {
 
         this.setState({
