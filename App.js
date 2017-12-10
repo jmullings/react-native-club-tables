@@ -15,7 +15,7 @@ import './lib/sqlite';
 export default class App extends Component<{}> {
 
     componentDidMount() {
-        Orientation.lockToLandscape();
+       // Orientation.lockToLandscape();
         // Orientation.lockToPortrait();
     }
 

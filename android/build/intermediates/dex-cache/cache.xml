@@ -3,111 +3,75 @@
 
     <item
         is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_ad1027a076436a591f06df7ecf0511c976c1c0f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_2c62e8f7125f929f30489e217c9667ede3c5ae82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_5a4022e02566fcad011f50684c7835115f482858.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_005c8a4a57b145aa08e43f9e564f50052aaa00d6.jar" />
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_005c8a4a57b145aa08e43f9e564f50052aaa00d6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c0af191c3ae5b53f28148369f96f374888442fb4.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_64996ad14a2f9cb98ff7c81ef01bd5102eca027d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_23252c3cd15613fc2859168f70e88b3884f20521.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4561aefa6342f60270adb737d82c14ce899854e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_e1eabc191dd0ae3778314f211403e48e8a097945.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_fb43dd1f94c561fb2ec997f77d99fa145a875d42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_2f65508ffd9ec7173ca26a5e7f7be4038f821730.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_215b66b4c486ff187a62c89a88e539ccf50d4128.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_479d367eb4b80f78c0a6624fff48d2ae187aba52.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_e5e06ec25839d290c4897e908ed3746412d31952.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_37126ef4f989a2be1b9de8ee1b8e19d725917a53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_5d79c51a37a73b1b9322d85f615dcef4eb5d5c5e.jar" />
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3e2bc20929b43330fe0be0a2390d3564bc2f7ce0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c5ae224ec9dbe094c850c8c561bea922f37ceea7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_c0292809c446d748a27acec2ee74861a62f31d18.jar" />
     </item>
     <item
         is-multidex="false"
@@ -116,43 +80,79 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_234e01f85ae4444930c7921c332eb55fdef5c045.jar" />
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_234e01f85ae4444930c7921c332eb55fdef5c045.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/reactTables/react-native-orientation/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_9b204b1b3040fd463d1db39e4437dd4f85a6f3cb.jar" />
+        sha1="810e79419722bde9111f9931e72a77934a30c33c">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/reactTables-react-native-orientation-unspecified_935504d68221b10fe2b456d946a02056e624cd09.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_01d2b2876688c6a584ff7ddc7b4c6bec0a9d202f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_49b3fb72f653b59fa63d2e1066562487adbfb97b.jar" />
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_111c0efcc26c77da34c7b6f662bb67ead64adce0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_8221a8dd620d70e2f5c2eaefb12537f9e258ccb9.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c0af191c3ae5b53f28148369f96f374888442fb4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_cbe9cf6cec6a3f13ac3d31bc46404d2bdbe1c64e.jar" />
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_23252c3cd15613fc2859168f70e88b3884f20521.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_4561aefa6342f60270adb737d82c14ce899854e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_fb43dd1f94c561fb2ec997f77d99fa145a875d42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_215b66b4c486ff187a62c89a88e539ccf50d4128.jar" />
     </item>
     <item
         is-multidex="false"
@@ -161,34 +161,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_02ebe753af569f26f0fd1ea93dcbfe67e114b864.jar" />
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_02ebe753af569f26f0fd1ea93dcbfe67e114b864.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_240c652baed848b47b3459380c42896d9a246688.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_82749d1a31363b8ba20c93648767df894939e503.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_eb72899b7abe8deedc5d0e4093212cca6d1c8b22.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5c79d441b5034d7b9bf568cd703878197198769a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/reactTables/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_3a21cb1318e7e3f644f9473bc744f70721d40c6d.jar" />
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ef957f3920a08e72e384a5da9b554a8ab4d8ac01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/jlmconsulting/WebstormProjects/react-tables/react-native-club-tables/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_dd67e4a7e36df23fc77b6d4ac24beb0ecde06f96.jar" />
     </item>
 
 </items>

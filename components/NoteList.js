@@ -46,7 +46,7 @@ export default class NoteList extends React.Component {
 
                     var result = snapshot.val()[key];
                     "object" === typeof result ? result.key = key : result = {_key: key, val: result, ind: ind};
-                    SQLiteDB.insert(`INSERT INTO 'tables' (dataDump) VALUES (${result.toString()})`);
+                   // SQLiteDB.insert(`INSERT INTO 'tables' (dataDump) VALUES (${result.toString()})`);
                     return result
                 }))
             });

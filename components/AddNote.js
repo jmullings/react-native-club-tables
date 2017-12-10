@@ -73,8 +73,8 @@ export default class AddNote extends React.Component {
         let data ={
             title: title,
             zIndex: nextZIndex(),
-            left: -100,
-            top: -200
+            left:0,
+            top: 0
         };
         firebase.database().ref('/tables').push(data);
         //SQLiteDB.insert(`INSERT INTO 'tables' (dataDump) VALUES (${data.toString()})`);

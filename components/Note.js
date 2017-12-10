@@ -34,7 +34,7 @@ export default class Note extends React.Component {
             },
         };
         this.prevZIndex = 0
-        this.timer = 1;
+        this.timer = 0;
         this.delay = 200;
         this.prevent = false;
     }
@@ -120,7 +120,7 @@ export default class Note extends React.Component {
                 onPressIn={this.handleDrag.bind(this)}
                 pressDrag={this.handleDoubleClick.bind(this)}
                 pressDragRelease={this.handleStopDrag.bind(this)}>
-                <Text>x: {deltaPosition.x}, y: {deltaPosition.y}</Text>
+
             </Draggable>
                 <DateTimePicker
                     isVisible={this.state.isDateTimePickerVisible}
@@ -171,3 +171,4 @@ export default class Note extends React.Component {
 
 
 }
+// <Text>x: {deltaPosition.x}, y: {deltaPosition.y}</Text>

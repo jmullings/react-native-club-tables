@@ -136,7 +136,7 @@ export default class Draggable extends Component {
     _dragItemTextCss = () => {
         const {renderSize} = this.props;
         return {
-            marginTop: renderSize - 10,
+            marginTop: renderSize - 20,
             marginLeft: 5,
             marginRight: 5,
             textAlign: 'center',
